@@ -1,0 +1,57 @@
+body {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #333333;
+}
+
+.services-list {
+  &__img {
+    height: 200px;
+    img {
+      object-fit: cover;
+    }
+  }
+}
+
+.hero-container {
+  height: 100vh;
+  overflow: hidden;
+  img {
+    object-fit: cover;
+  }
+  &__content {
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .5);
+
+    h1 {
+      color: #fff;
+      font-size: 5rem;
+      font-weight: 900;
+    }
+  }
+}
+
+.contact {
+  background-color: #333333;
+
+  p,
+  h2 {
+    color: #fff;
+  }
+  a {
+    color: #fff;
+    &:hover,
+    &:active,
+    &:focus,
+    &:visited {
+      color: #fff;
+    }
+
+    span {
+      font-size: 2rem;
+    }
+  }
+}
