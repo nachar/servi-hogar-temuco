@@ -4,7 +4,7 @@
       <img alt="Vue logo" class="w-100 h-100" src="./assets/electric-gate.jpeg">
       <div class="hero-container__content position-absolute w-100 h-100
       d-flex align-items-center justify-content-center">
-        <h1>Servi Hogar Temuco</h1>
+        <h1 class="m-0 px-4">Servi Hogar Temuco</h1>
       </div>
     </div>
 
@@ -53,29 +53,35 @@
     </div>
 
     <div class="contact py-5">
-      <h2 class="mb-4">Contacto</h2>
-      <p>
-        La mejor empresa de multiservicios profesionales para el hogar y
-        empresarial en la novena región.
-      </p>
-      <p class="mb-4">
-        Trabajo de calidad y con los mejores profesionales del sur de Chile.
-      </p>
-      <a class="mx-2" href="mailto:contacto@ingedoor.cl">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h2 class="mb-4">Contacto</h2>
+            <p>
+              La mejor empresa de multiservicios profesionales para el hogar y
+              empresarial en la novena región.
+            </p>
+            <p class="mb-4">
+              Trabajo de calidad y con los mejores profesionales del sur de Chile.
+            </p>
+            <a class="mx-2" href="mailto:contacto@ingedoor.cl">
         <span class="material-icons-outlined">
           email
         </span>
-      </a>
-      <a class="mx-2" href="https://wa.me/56994034674">
+            </a>
+            <a class="mx-2" href="https://wa.me/56994034674">
         <span class="material-icons-outlined">
           whatsapp
         </span>
-      </a>
-      <a class="mx-2" href="tel:56994034674">
+            </a>
+            <a class="mx-2" href="tel:56994034674">
         <span class="material-icons-outlined">
           call
         </span>
-      </a>
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </template>
