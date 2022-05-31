@@ -1,8 +1,8 @@
 <template>
   <div id="app">
-    <HeroComponent/>
-    <ServicesComponent/>
-    <FooterComponent/>
+    <hero-component />
+    <services-component />
+    <footer-component />
   </div>
 </template>
 
